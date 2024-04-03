@@ -1,3 +1,11 @@
-:root{
-  
+:root {
+  --co-white: #fff;
+  --co-green: #057051;
+  --co-lightblack: #484848;
 }
+
+/* media breackpoints:
+992px
+768px
+576px
+480px*/
