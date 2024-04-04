@@ -6,8 +6,6 @@
   align-items: center;
 }
 
-.header__nav {}
-
 .header__nav-list {
   display: flex;
   justify-content: center;
@@ -15,8 +13,6 @@
   column-gap: min(70px, 4vw);
 
 }
-
-.header__nav-item {}
 
 .header__nav-link {
   font-weight: 500;
@@ -41,8 +37,6 @@
   align-items: center;
   flex-wrap: nowrap;
 }
-
-.btn {}
 
 @media (max-width: 992px) {
 
