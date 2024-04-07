@@ -1,0 +1,67 @@
+.person__card {
+  width: 300px;
+  padding: 20px 10px;
+  border-radius: 5px;
+  position: absolute;
+  top: 325px;
+  left: 10px;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .3);
+}
+
+.person__card-title {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 157%;
+  position: relative;
+  margin: 0 0 20px 0;
+}
+
+.person__card-title::before {
+  content: '';
+  height: 1px;
+  background-color: #000;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+}
+
+.person__card-preview {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 0 10px 0;
+}
+
+.person__card-img {
+  width: 200px;
+  height: 120px;
+  object-fit: cover;
+  object-position: -58px -28px;
+}
+
+.person__card-name {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.person__card-descr {}
+
+.person__card-subtitle {
+  font-weight: 700;
+  font-size: 15px;
+  margin: 0 0 15px 0;
+}
+
+.person__card-list {}
+
+.person__card-item {
+  margin: 0 0 15px 0;
+  list-style-type: disc;
+}
