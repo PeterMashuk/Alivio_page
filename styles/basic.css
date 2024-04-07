@@ -65,3 +65,7 @@ figure {
   background-color: transparent;
   color: #000;
 }
+
+.present__content .btn:hover {
+  outline: 2px solid #fff;
+}
