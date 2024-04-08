@@ -86,3 +86,9 @@
     max-width: 600px;
   }
 }
+
+@media (max-width:1330px) {
+  .product__preview {
+    max-width: 100%;
+  }
+}
